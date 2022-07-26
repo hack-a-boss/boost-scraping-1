@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  padding: 2rem;
+}
+
+ul.sources {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+ul.sources li h2 {
+  margin-bottom: 1rem;
+}
+
+ul.sources li a {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  color: black;
+}
